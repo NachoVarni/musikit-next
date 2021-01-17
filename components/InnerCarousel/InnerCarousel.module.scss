@@ -1,0 +1,38 @@
+.wrapper {
+  height: 100%;
+  margin-right: 50px;
+  
+  .title {
+    height: 20%;
+  }
+  
+  .carouselPic {
+      width: 300px;
+      height: 80%;
+  }
+
+  .desc {
+    color: gold;
+  }
+
+  @media (max-width: 812px) {
+    margin-right: 5px;
+
+    .carouselPic {
+      width: 110px;
+    }
+
+    .title {
+      font-size: 1rem;
+    }
+
+    .desc {
+      color: rgb(119, 103, 9);
+      font-size: 0.8rem;
+    }
+  }
+}
+
+
+
+

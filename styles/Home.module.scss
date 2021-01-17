@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  height: 100vh;
+  background-color: rgb(10, 10, 94);
+
+  .loginWrapper {
+    border: 1px solid gold;
+    border-radius: 15px;
+    
+    padding: 50px;
+    color: gold;
+  }
+}
